@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="rule">Here is three words. Two words originate from one root, which was used many time ago in Indo-European language. But third word, even though sounds similiar to other words, have different origin. Gues, which word is excess.</string>
+    <string name="quiz_about_ethimologie">quiz about ethimologie</string>
+    <string name="_1">1.</string>
+    <string name="_2">2.</string>
+    <string name="_3">3.</string>
+    <string name="_4">4.</string>
+    <string name="_5">5.</string>
+    <string name="food_english">Food (english)</string>
+    <string name="futter_deutch">Futter (deutch)</string>
+    <string name="futro_polish">Futro (polish)</string>
+    <string name="timer_english">Timer (english)</string>
+    <string name="zimmer_deutch">Zimmer (deutch)</string>
+    <string name="fallow_english">Fallow (english)</string>
+    <string name="fallen_deutch">Fallen (deutch)</string>
+    <string name="plowy_polish">Plowy (polish)</string>
+    <string name="thow_english">thow (english)</string>
+    <string name="touren_deutch">Touren (deutch)</string>
+    <string name="tjac_polish">Tjac (polish)</string>
+    <string name="tame_english">Tame (english)</string>
+    <string name="zahmen_deutch">zahmen (deutch)</string>
+    <string name="zamek_polish">Zamek (polish)</string>
+    <string name="dom_polish">Dom (polish)</string>
+    <string name="right_answer_1">It\'s right!  Words zimmer and dom origin from root *dem, which means \'to build\'.</string>
+    <string name="wrong_answer1">It\'s wrong.  Words zimmer and dom origin from root *dem, which means \'to build\'.</string>
+    <string name="right_answer2">It\'s right!  Words food and futter origin from root *peh2-, which means \'to protect\'.</string>
+    <string name="right_answer3">It\'s right!  Words fallow and plowy origin from root *pel-, which means \'grey\'.</string>
+    <string name="right_answer4">It\'s right!  Words thow and tajac origin from root *teh2w-, which means \'to melt\'.</string>
+    <string name="right_answer5">It\'s right!  Words tame and zahmen origin from root *demh2-, which means \'to domesticate\'.</string>
+    <string name="wrong_answer2">It\'s wrong.  Words food and futter origin from root *peh2-, which means \'to protect\'.</string>
+    <string name="wrong_answer3">It\'s wrong.  Words fallow and plowy origin from root *pel-, which means \'grey\'.</string>
+    <string name="wrong_answer4">It\'s wrong.  Words thow and tajac origin from root *teh2w-, which means \'to melt\'.</string>
+    <string name="wrong_answer5">It\'s wrong.  Words tame and zahmen origin from root *demh2-, which means \'to domesticate\'.</string>
+    <string name="yoy_have">You have </string>
+    <string name="correct_answers"> correct answers out of 5.</string>
+</resources>
