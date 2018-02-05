@@ -1,10 +1,12 @@
 package com.example.android.quizapp;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -14,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
     int score = 0;
     Toast t;
     RadioGroup rg1, rg2, rg3, rg4, rg5;
-    TextView result_view;
+
+
 
     static final String STATE_SCORE = "score";
 
@@ -31,7 +34,24 @@ public class MainActivity extends AppCompatActivity {
         rg3 = findViewById(R.id.radio_group3);
         rg4 = findViewById(R.id.radio_group4);
         rg5 = findViewById(R.id.radio_group5);
-        result_view = findViewById(R.id.result_text);
+
+
+
+        Button submit = (Button) findViewById(R.id.submit_button);
+
+        // Set a click listener on that View
+        submit.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the numbers category is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link NumbersActivity}
+                Intent submitIntent = new Intent(getApplicationContext(), Activity.class);
+                submitIntent.putExtra("score", score);
+
+                // Start the new activity
+                startActivity(submitIntent);
+            }
+        });
     }
 
 
@@ -140,11 +160,6 @@ public class MainActivity extends AppCompatActivity {
             rg5.getChildAt(i).setEnabled(false);
         }
 
-    }
-
-    // show result of quiz
-    public void click_submit(View view) {
-        result_view.setText(getString(R.string.yoy_have) + " " + score + " " + getString(R.string.correct_answers));
     }
 
     // reset quiz

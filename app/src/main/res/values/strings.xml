@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Quiz App</string>
     <string name="rule">Here is three words. Two words originate from one root, which was used many time ago in Indo-European language. But third word, even though sounds similiar to other words, have different origin. Gues, which word is excess.</string>
-    <string name="quiz_about_ethimologie">quiz about ethimologie</string>
+    <string name="quiz_about_etymology">quiz about etymology</string>
     <string name="_1">1.</string>
     <string name="_2">2.</string>
     <string name="_3">3.</string>
@@ -34,4 +34,6 @@
     <string name="wrong_answer5">It\'s wrong.  Words tame and zahmen origin from root *demh2-, which means \'to domesticate\'.</string>
     <string name="yoy_have">You have </string>
     <string name="correct_answers"> correct answers out of 5.</string>
+    <string name="i_have">I have</string>
+    <string name="correct_answer">correct answers out of 5!</string>
 </resources>

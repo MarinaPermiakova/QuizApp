@@ -18,7 +18,7 @@
             android:background="@drawable/languages"
             android:gravity="bottom|start"
             android:padding="@dimen/_6"
-            android:text="@string/quiz_about_ethimologie"
+            android:text="@string/quiz_about_etymology"
             android:textAllCaps="true"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="@dimen/text_20"
@@ -266,7 +266,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|bottom"
             android:text="submit"
-            android:onClick="click_submit"
             android:id="@+id/submit_button"/>
 
         <Button
